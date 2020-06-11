@@ -34,6 +34,9 @@ class App extends React.Component {
             School:<input type="text" name="name" value={this.state.name}  onChange={(e)=>this.changeHandler(e)}/>
           </label><br/><br/>
           <label>
+            Address:<input type="text" name="name" value={this.state.name}  onChange={(e)=>this.changeHandler(e)}/>
+          </label><br/><br/>
+          <label>
             Email Id<input type="text" name="email" value={this.state.email} onChange={(e)=>this.changeHandler(e)}/>
           </label><br/><br/>
           <label>
